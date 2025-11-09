@@ -16,6 +16,22 @@
             <input type="text" id="task-input" placeholder="添加一个新任务..." autocomplete="off">
             <button type="submit">添加</button>
         </form>
+
+        <div class="task-stats">
+            <div class="stat-item">
+                <span class="stat-label">总计</span>
+                <span id="total-tasks" class="stat-number">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">已完成</span>
+                <span id="completed-tasks" class="stat-number">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">待完成</span>
+                <span id="pending-tasks" class="stat-number">0</span>
+            </div>
+        </div>
+
         <ul id="task-list">
             </ul>
     </div>
